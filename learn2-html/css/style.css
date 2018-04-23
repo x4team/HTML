@@ -1,0 +1,63 @@
+/* В CSS присутствуют только селекторы и свойства 
+селектор {
+	свойство: значение;
+	свойство1: значение1;
+	свойство2: значение2;
+	свойствоN: значениеN;
+}
+*/
+
+
+a {
+	color: red;
+	font-size: 13px;
+}
+
+/* Используем идентификатор */
+#my_link {
+	color: lime;
+	font-size: 13px;
+}
+
+div {
+	color: #19FBFF; /* Все цифры от 0 до F - шестнадцатиричная система исчисления*/
+	/* color: rgb(255, 0, 0); - цвет в системе RGB*/
+	/* color: rgba(255, 58, 131, 0.5); - цвет в системе RGBA - с прозрачностью*/
+}
+
+/* Используем классы */
+
+.message {
+	color: #cc0000;
+	background-color: #E4E4E4;
+	border: 1px dashed #323232;
+	font-size: 20px;
+	/* margin: 10px;  Внешние отступы элемента */
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 15px;
+	/* padding: 10px;  Внутренние отступы в элементе*/ 
+	padding: 15px;
+}
+
+.success {
+	color: #fff;
+	background-color: #eee;
+	
+}
+
+.fail {
+	color: black;
+	background-color: red;
+
+}
+
+.info {
+	color: white;
+	background-color: blue;
+
+}
+
+/* Событийные селекторы */
+
+
